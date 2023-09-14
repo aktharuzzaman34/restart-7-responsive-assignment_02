@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.game-section {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.gamer {
+    color: rgb(13, 197, 221);
+}
+
+nav img {
+    width: 20%;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.follow {
+    background-color: #d6d1d1;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+.fa-youtube {
+    color: rgb(245, 22, 22);
+}
