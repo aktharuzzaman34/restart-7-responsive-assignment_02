@@ -96,8 +96,18 @@ nav li a {
     border-radius: 10px;
 }
 
+.button:hover {
+    box-shadow: 0 0 0 4px #ffff,
+        0 0 0 8px rgb(218, 32, 125);
+}
+
 .sign-in {
     background-color: rgb(13, 197, 221);
+}
+
+.sign-in:hover {
+    box-shadow: 0 0 0 4px #ffff,
+        0 0 0 8px rgb(13, 197, 221);
 }
 
 .go-rogue {
@@ -135,4 +145,16 @@ nav li a {
 
 .purpose h3 {
     font-size: 39px;
+}
+
+.latest-articles {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.latest-articles h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 0;
 }
