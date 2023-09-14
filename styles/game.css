@@ -181,3 +181,37 @@ nav li a {
     width: 70%;
     /* justify-content: space-around; */
 }
+
+.upload-games {
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.gamer-container h2 {
+    font-size: 35px;
+}
+
+.gamer-container {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.upload-games img {
+    width: 50%;
+    justify-content: right;
+    padding-left: 200px;
+    margin-top: 60px;
+}
+
+.upload-img {
+    width: 340px;
+    /* padding: 40px; */
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    right: 80px;
+    margin-bottom: 0;
+}
