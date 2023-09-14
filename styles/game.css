@@ -215,3 +215,35 @@ nav li a {
     right: 80px;
     margin-bottom: 0;
 }
+
+.upload-img-2 {
+    width: 340px;
+    /* padding: 40px; */
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.upload-games-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-games-2 img {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.gamer-container-2 {
+    /* text-align: left; */
+    /* padding-left: 100px; */
+    padding-bottom: 200px;
+}
+
+.gamer-container-2 h2 {
+    font-size: 40px;
+}
