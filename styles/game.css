@@ -111,9 +111,28 @@ nav li a {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    padding-right: 150px;
+    padding-right: 120px;
+}
+
+.we-are-gamer {
+    text-align: right;
+    padding-left: 30px;
+}
+
+.we-are-gamer p {
+    text-align: right;
+    color: #534C64;
 }
 
 .container-gamer {
     color: rgb(218, 32, 125);
+}
+
+.purpose {
+    padding-top: 20px;
+    color: #534C64;
+}
+
+.purpose h3 {
+    font-size: 39px;
 }
