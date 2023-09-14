@@ -7,6 +7,7 @@
 
 nav {
     display: flex;
+    background-color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
     padding: 30px 120px;
@@ -55,4 +56,51 @@ nav li a {
 
 .fa-youtube {
     color: rgb(245, 22, 22);
+}
+
+.banner {
+    display: flex;
+    background-color: rgb(245, 241, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-left: 150px;
+}
+
+.banner img {
+    width: 80%;
+}
+
+.play {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.goat {
+    font-size: 5.6rem;
+    color: rgb(206, 72, 116);
+    margin: 0;
+}
+
+.btn-game {
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.sign-in {
+    background-color: rgb(13, 197, 221);
+}
+
+.go-rogue {
+    background-color: rgb(206, 72, 116);
+    margin-left: 20px;
 }
