@@ -380,3 +380,43 @@ footer {
 .footer-icon {
     color: #ffffff;
 }
+
+/* responsive media queries */
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav,
+    .banner,
+    .extra-container,
+    .game-upload,
+    .upload-games,
+    .upload-games-2,
+    .positions,
+    .popular-games {
+        flex-direction: column;
+    }
+
+    .navbar {
+        padding-left: 50px;
+    }
+
+    .banner img {
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+
+    .specialist {
+        padding-left: 0;
+    }
+
+    .friends-group {
+        width: 60px;
+        padding-right: 300px;
+    }
+
+
+}
