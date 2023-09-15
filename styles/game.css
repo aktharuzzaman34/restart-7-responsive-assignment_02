@@ -257,6 +257,12 @@ nav li a {
     gap: 20px;
 }
 
+.address {
+    text-align: right;
+    position: relative;
+    left: 70px;
+}
+
 .positions {
     display: flex;
     color: #ffff;
