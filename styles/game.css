@@ -287,3 +287,33 @@ nav li a {
 .specialist {
     padding-left: 80px;
 }
+
+/* ..................  */
+.popular-games {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.online-games {
+    display: flex;
+    background-color: #e2dde1;
+    border-radius: 30px;
+    align-items: center;
+    gap: 0;
+}
+
+.game-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(65, 64, 64);
+    font-weight: 400;
+    /* border-radius: 10px; */
+}
