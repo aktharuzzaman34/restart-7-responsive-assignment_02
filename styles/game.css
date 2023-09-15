@@ -297,15 +297,13 @@ nav li a {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 50px;
 }
 
 .online-games {
     display: flex;
     justify-content: center;
-    background-color: #e2dde1;
+    background-color: #ffffff;
     border-radius: 50px;
     align-items: center;
     gap: 0;
@@ -313,10 +311,22 @@ nav li a {
     padding-bottom: 10px;
 }
 
+.online-games:hover {
+    border: 1px solid rgb(218, 32, 125);
+}
+
+.online-games-img {
+    width: 70%;
+}
+
 .game-button {
     text-decoration: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     color: rgb(65, 64, 64);
     font-weight: 400;
     /* border-radius: 10px; */
+}
+
+.game-button:hover {
+    color: rgb(218, 32, 125);
 }
