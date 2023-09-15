@@ -304,10 +304,13 @@ nav li a {
 
 .online-games {
     display: flex;
+    justify-content: center;
     background-color: #e2dde1;
-    border-radius: 30px;
+    border-radius: 50px;
     align-items: center;
     gap: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .game-button {
